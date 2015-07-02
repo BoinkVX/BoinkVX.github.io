@@ -1,0 +1,22 @@
+p{
+  font-family: 'Roboto Slab', serif;
+}
+
+.front{
+  height: 100%;
+  max-width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.title{
+  margin-top: 300px;
+  position: relative;
+  text-align: center;
+}
+
+.title-text{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: white;
+}
