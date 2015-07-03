@@ -1,42 +1,37 @@
 h1, h2, h3, h4, h5, p {
   font-family: 'Inconsolata', serif;
 }
-
 #background {
   background: #f0f9ff;
-  background: -moz-linear-gradient(top,  #f0f9ff 0%, #a1dbff 50%, #a1dbff 85%, #ff8800 90%, #ce0000 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f0f9ff), color-stop(50%,#a1dbff), color-stop(85%,#a1dbff), color-stop(90%,#ff8800), color-stop(100%,#ce0000));
-  background: -webkit-linear-gradient(top,  #f0f9ff 0%,#a1dbff 50%,#a1dbff 85%,#ff8800 90%,#ce0000 100%);
-  background: -o-linear-gradient(top,  #f0f9ff 0%,#a1dbff 50%,#a1dbff 85%,#ff8800 90%,#ce0000 100%);
-  background: -ms-linear-gradient(top,  #f0f9ff 0%,#a1dbff 50%,#a1dbff 85%,#ff8800 90%,#ce0000 100%);
-  background: linear-gradient(to bottom,  #f0f9ff 0%,#a1dbff 50%,#a1dbff 85%,#ff8800 90%,#ce0000 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#ce0000',GradientType=0 );
-
+  background: -moz-linear-gradient(top, #f0f9ff 0%, #a1dbff 50%, #a1dbff 85%, #ff8800 90%, #ce0000 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f0f9ff), color-stop(50%, #a1dbff), color-stop(85%, #a1dbff), color-stop(90%, #ff8800), color-stop(100%, #ce0000));
+  background: -webkit-linear-gradient(top, #f0f9ff 0%, #a1dbff 50%, #a1dbff 85%, #ff8800 90%, #ce0000 100%);
+  background: -o-linear-gradient(top, #f0f9ff 0%, #a1dbff 50%, #a1dbff 85%, #ff8800 90%, #ce0000 100%);
+  background: -ms-linear-gradient(top, #f0f9ff 0%, #a1dbff 50%, #a1dbff 85%, #ff8800 90%, #ce0000 100%);
+  background: linear-gradient(to bottom, #f0f9ff 0%, #a1dbff 50%, #a1dbff 85%, #ff8800 90%, #ce0000 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#ce0000', GradientType=0);
 }
-
 #stage {
   height: 19500px;
   //outline:1px solid red;
-  position:relative;
+  position: relative;
   //overflow:hidden;
 }
-
 #counter {
-  width:150px;
-  border:5px solid white;
-  color:black;
-  font-size:20px;
-  line-height:40px;
-  text-align:center;
-  font-family:verdana;
-  position:fixed;
-  top:0;
-  left:0;
+  width: 150px;
+  border: 5px solid white;
+  color: black;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  font-family: verdana;
+  position: fixed;
+  top: 0;
+  left: 0;
   z-index: 10;
   //visibility: hidden;
 }
-
-#dummy1{
+#dummy1 {
   width: 331px;
   height: 250px;
   position: absolute;
@@ -45,8 +40,7 @@ h1, h2, h3, h4, h5, p {
   background-image: url(../images/dummy.png);
   visibility: hidden;
 }
-
-#dummy2{
+#dummy2 {
   width: 331px;
   height: 250px;
   position: absolute;
@@ -55,8 +49,7 @@ h1, h2, h3, h4, h5, p {
   background-image: url(../images/dummy.png);
   visibility: hidden;
 }
-
-#dummy3{
+#dummy3 {
   width: 331px;
   height: 800px;
   position: absolute;
@@ -65,8 +58,7 @@ h1, h2, h3, h4, h5, p {
   background-image: url(../images/dummy.png);
   visibility: hidden;
 }
-
-#dummy4{
+#dummy4 {
   width: 331px;
   height: 1000px;
   position: absolute;
@@ -75,8 +67,7 @@ h1, h2, h3, h4, h5, p {
   background-image: url(../images/dummy.png);
   visibility: hidden;
 }
-
-#dummy5{
+#dummy5 {
   width: 331px;
   height: 900px;
   position: absolute;
@@ -85,8 +76,7 @@ h1, h2, h3, h4, h5, p {
   background-image: url(../images/dummy.png);
   visibility: hidden;
 }
-
-#dummy6{
+#dummy6 {
   width: 331px;
   height: 1300px;
   position: absolute;
@@ -95,8 +85,7 @@ h1, h2, h3, h4, h5, p {
   background-image: url(../images/dummy.png);
   visibility: hidden;
 }
-
-#dummyflash{
+#dummyflash {
   width: 331px;
   height: 261px;
   position: absolute;
@@ -105,45 +94,40 @@ h1, h2, h3, h4, h5, p {
   background-image: url(../images/dummy.png);
   visibility: hidden;
 }
-
-#bomb{
-  width:148px;
-  height:253px;
-  position:absolute;
-  top:400px;
-  left:50%;
+#bomb {
+  width: 148px;
+  height: 253px;
+  position: absolute;
+  top: 400px;
+  left: 50%;
   z-index: 0;
-  margin-left:-74px;
-  background-image:url(../images/bomb.png);
+  margin-left: -74px;
+  background-image: url(../images/bomb.png);
 }
-
-#bird{
+#bird {
   width: 275px;
   height: 233px;
   top: 8900px;
   left: 90%;
   position: absolute;
-  background-image:url(../images/bird.png);
+  background-image: url(../images/bird.png);
 }
-
-#plane1{
+#plane1 {
   width: 508px;
   height: 246px;
   top: 100px;
   z-index: 1;
   position: absolute;
-  background-image:url(../images/plane1.png);
+  background-image: url(../images/plane1.png);
 }
-
-#plane2{
+#plane2 {
   width: 720px;
   height: 444px;
   top: 7900px;
   position: absolute;
-  background-image:url(../images/plane2.png);
+  background-image: url(../images/plane2.png);
 }
-
-#city{
+#city {
   top: 16000px;
   width: 100%;
   height: 1530px;
@@ -151,8 +135,7 @@ h1, h2, h3, h4, h5, p {
   position: absolute;
   background-image: url(../images/city.png);
 }
-
-#cityb{
+#cityb {
   top: 15700px;
   width: 100%;
   height: 984px;
@@ -160,8 +143,7 @@ h1, h2, h3, h4, h5, p {
   position: absolute;
   background-image: url(../images/cityb.png);
 }
-
-#explosion{
+#explosion {
   bottom: 0px;
   width: 1584px;
   height: 1224px;
@@ -171,170 +153,155 @@ h1, h2, h3, h4, h5, p {
   position: absolute;
   background-image: url(../images/explosion.png);
 }
-
 #flash {
- width: 100%;
- height: 5000px;
- top: 16000px;
- z-index: 3;
- position: absolute;
- background-color: white;
- background-repeat: no-repeat;
+  width: 100%;
+  height: 5000px;
+  top: 16000px;
+  z-index: 3;
+  position: absolute;
+  background-color: white;
+  background-repeat: no-repeat;
 }
-#cloud1{
+#cloud1 {
   width: 460px;
   height: 282px;
   top: 1000px;
   left: 10%;
   position: absolute;
-  background-image:url(../images/cloud-1.png);
+  background-image: url(../images/cloud-1.png);
 }
-
-#cloud2{
+#cloud2 {
   width: 440px;
   height: 266px;
   top: 1200px;
   left: 70%;
   z-index: 1;
   position: absolute;
-  background-image:url(../images/cloud-2.png);
+  background-image: url(../images/cloud-2.png);
 }
-
-#cloud3{
+#cloud3 {
   width: 1016px;
   height: 616px;
   top: 2000px;
   left: 0%;
   z-index: 1;
   position: absolute;
-  background-image:url(../images/cloud-3.png);
+  background-image: url(../images/cloud-3.png);
 }
-
-#cloud4{
+#cloud4 {
   width: 280px;
   height: 187px;
   top: 2300px;
   left: 60%;
   z-index: 1;
   position: absolute;
-  background-image:url(../images/cloud-4.png);
+  background-image: url(../images/cloud-4.png);
 }
-
-#cloud5{
+#cloud5 {
   width: 485px;
   height: 323px;
   top: 1600px;
   left: 55%;
   z-index: 1;
   position: absolute;
-  background-image:url(../images/cloud-5.png);
+  background-image: url(../images/cloud-5.png);
 }
-
-#cloud6{
+#cloud6 {
   width: 411px;
   height: 309px;
   top: 3400px;
   left: 55%;
   z-index: 1;
   position: absolute;
-  background-image:url(../images/cloud-6.png);
+  background-image: url(../images/cloud-6.png);
 }
-
-#message1{
+#message1 {
   top: 1700px;
   z-index: 1;
   position: absolute;
   padding: 15px;
-  border: 5px  black solid;
+  border: 5px black solid;
   outline: 10px #D0C6A8 solid;
   background-color: #D0C6A8;
 }
-
-#message2{
+#message2 {
   top: 2700px;
   z-index: 1;
   position: absolute;
   padding: 15px;
-  border: 5px  black solid;
+  border: 5px black solid;
   outline: 10px #D0C6A8 solid;
   background-color: #D0C6A8;
 }
-
-#message3{
+#message3 {
   top: 3700px;
   z-index: 1;
   position: absolute;
   padding: 15px;
-  border: 5px  black solid;
+  border: 5px black solid;
   outline: 10px #D0C6A8 solid;
   background-color: #D0C6A8;
 }
-
-#message4{
+#message4 {
   top: 4700px;
   z-index: 1;
   position: absolute;
   padding: 15px;
-  border: 5px  black solid;
+  border: 5px black solid;
   outline: 10px #D0C6A8 solid;
   background-color: #D0C6A8;
 }
-
-#message5{
+#message5 {
   top: 5700px;
   z-index: 1;
   position: absolute;
   padding: 15px;
-  border: 5px  black solid;
+  border: 5px black solid;
   outline: 10px #D0C6A8 solid;
   background-color: #D0C6A8;
 }
-
-#message6{
+#message6 {
   top: 6700px;
   z-index: 1;
   position: absolute;
   padding: 15px;
-  border: 5px  black solid;
+  border: 5px black solid;
   outline: 10px #D0C6A8 solid;
   background-color: #D0C6A8;
 }
-
-#message7{
+#message7 {
   top: 7700px;
   z-index: 1;
   position: absolute;
   padding: 15px;
-  border: 5px  black solid;
+  border: 5px black solid;
   outline: 10px #D0C6A8 solid;
   background-color: #D0C6A8;
 }
-
-#message8{
+#message8 {
   top: 8700px;
   z-index: 1;
   position: absolute;
   padding: 15px;
-  border: 5px  black solid;
+  border: 5px black solid;
   outline: 10px #D0C6A8 solid;
   background-color: #D0C6A8;
 }
-#message9{
+#message9 {
   top: 9000px;
   z-index: 1;
   position: absolute;
   padding: 15px;
-  border: 5px  black solid;
+  border: 5px black solid;
   outline: 10px #D0C6A8 solid;
   background-color: #D0C6A8;
 }
-
-#message10{
+#message10 {
   top: 11500px;
   z-index: 11;
   position: absolute;
   padding: 15px;
-  border: 5px  black solid;
+  border: 5px black solid;
   outline: 10px #D0C6A8 solid;
   background-color: #D0C6A8;
 }
