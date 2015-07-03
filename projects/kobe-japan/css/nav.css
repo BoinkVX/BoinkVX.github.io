@@ -1,0 +1,48 @@
+ol {
+  text-align:center;
+}
+
+li, nav a{
+  display: inline;
+}
+
+nav a:link, nav a:visited {
+	color: #FFF;
+	text-decoration: none;
+  -webkit-transition:500ms ease;
+  -moz-transition:500ms ease;
+  -o-transition:500ms ease;
+  transition:500ms ease;
+}
+
+nav a:hover {
+	color: #8E8E8E;
+	text_decoration: none;
+	-webkit-transition:500ms ease;
+  -moz-transition:500ms ease;
+  -o-transition:500ms ease;
+  transition:500ms ease;
+}
+
+nav a.current {
+  color: #000;
+  background-color: #FFF;
+}
+
+footer {
+	color: #FFF;
+  text-align: center;
+}
+
+#navbar {
+  font-family: 'Bitter', bold;
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #990000;
+}
+
+.buttin {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}

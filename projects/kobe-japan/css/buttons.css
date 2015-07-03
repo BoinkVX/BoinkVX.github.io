@@ -1,0 +1,41 @@
+
+
+h1 {text-align: center; background-color: black;}
+h3 {text-align: center; background-color: black;}
+h2 {font-family: "helvetica", sans-serif;}
+
+
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper {
+background-color: black;
+border-color: #bbb;
+color: #333;
+text-shadow: 0 1px 0 #f3f3f3;
+}
+
+.slicknav_menu {
+    display:none;
+}
+
+@media screen and (max-width: 40em) {
+    /* #menu is the original menu */
+    .js #menu {
+        display:none;
+    }
+
+    .js .slicknav_menu {
+        display:block;
+    }
+}
+
+
+#wrapper {
+    width: auto;
+    background-color: black;
+
+}
+
+.slicknav_menu {
+    width: auto;
+    background-color: black;
+
+}

@@ -1,0 +1,21 @@
+body {
+	font-family: 'Bitter', serif;
+	background-color: #000;
+}
+
+p, h4 {
+	font-family: 'Bitter', serif;
+	color: #FFF;
+}
+
+h1, h3 {
+	color: #FFF;
+	text-align: center;
+}
+
+#map-canvas {
+		max-width: 100%
+    width: 1000px;
+    height: 400px;
+    background-color: #CCC;
+  }
