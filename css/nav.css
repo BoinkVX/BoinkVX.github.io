@@ -2,6 +2,7 @@ ul {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-size: 1em;
+  color: #000;
 }
 li, nav a {
   display: inline;
@@ -25,6 +26,9 @@ nav a:hover {
 }
 nav a.current {
   background-color: #FFF;
+}
+footer a:link, footer a:visited {
+  color: #000;
 }
 #navbar {
   width: 100%;
