@@ -10,6 +10,7 @@
 
   <!--style sheets-->
   <link rel="stylesheet" href="foundation/css/foundation.css" />
+  <link rel="stylesheet" href="css/nav.css" />
 
   <!--scripts-->
   <script src="foundation/js/vendor/modernizr.js"></script>
@@ -21,29 +22,18 @@
 
 <body>
 
-  <nav class="top-bar" data-topbar role="navigation">
-    <ul class="title-area">
-      <li class="name">
-        <h1><a href="#">My Site</a></h1>
-      </li>
-      <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-      <li class="toggle-topbar menu-icon">
-        <a href="#">
-          <span></span>
-        </a>
-      </li>
-    </ul>
-
-    <section class="top-bar-section">
-      <!-- Right Nav Section -->
-      <ul class="right">
-        <li class=""><a href="index.html">Home</a></li>
-        <li class=""><a href="work.html">Work</a></li>
-        <li class="active"><a href="about.html">About</a></li>
-        <li class=""><a href="contact.html">Contact</a></li>
+  <div id="navbar">
+    <nav>
+      <ul>
+        <div class="row">
+          <li><a href="index.html" class="small-3 large-1 columns">Home</a></li>
+          <li><a href="about.html" class="current small-3 large-1 columns">About</a></li>
+          <li><a href="work.html" class="small-3 large-1 columns">Work</a></li>
+          <li><a href="contact.html" class="small-3 large-1 columns">Contact</a></li>
+        </div>
       </ul>
-    </section>
-  </nav>
+    </nav>
+  </div>
 
 
   <script src="foundation/js/vendor/jquery.js"></script>
