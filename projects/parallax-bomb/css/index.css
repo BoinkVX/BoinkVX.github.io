@@ -10,12 +10,12 @@ h1, h2, h3, h4, h5, p {
   background: -ms-linear-gradient(top, #f0f9ff 0%, #a1dbff 50%, #a1dbff 85%, #ff8800 90%, #ce0000 100%);
   background: linear-gradient(to bottom, #f0f9ff 0%, #a1dbff 50%, #a1dbff 85%, #ff8800 90%, #ce0000 100%);
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#ce0000', GradientType=0);
+  overflow: hidden;
 }
 #stage {
   height: 19500px;
   //outline:1px solid red;
   position: relative;
-  //overflow:hidden;
 }
 #counter {
   width: 150px;
@@ -288,7 +288,7 @@ h1, h2, h3, h4, h5, p {
   background-color: #D0C6A8;
 }
 #message9 {
-  top: 9000px;
+  top: 9100px;
   z-index: 1;
   position: absolute;
   padding: 15px;

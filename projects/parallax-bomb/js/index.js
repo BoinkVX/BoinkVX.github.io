@@ -72,7 +72,7 @@ $(window).scroll(function() {
     "top": 8700 + fromTheTop * 0.4 + "px",
   });
   $("#message9").css({
-    "top": 9000 + fromTheTop * 0.4 + "px",
+    "top": 9100 + fromTheTop * 0.4 + "px",
   });
   $("#message10").css({
     "top": 11500 + fromTheTop * 0.4 + "px",
@@ -100,11 +100,11 @@ $(window).scroll(function() {
     });
   }
 
-  if (fromTheTop >= 8400) {
+  /*if (fromTheTop >= 8400) {
     $("#plane2").css({
       "display": "none"
     })
-  }
+  }*/
 
   //bird
   if (fromTheTop <= 7800) {
