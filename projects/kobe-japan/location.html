@@ -1,22 +1,23 @@
 <!doctype html>
 <html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Location</title>
 
-    <!--fonts-->
-    <link href='http://fonts.googleapis.com/css?family=Bitter:400,700' rel='stylesheet' type='text/css'>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Location</title>
 
-    <!--style sheets-->
-    <link rel="stylesheet" href="../../foundation/css/foundation.css" />
-    <link rel="stylesheet" href="css/nav.css" />
-    <link rel="stylesheet" href="css/location.css" />
+  <!--fonts-->
+  <link href='http://fonts.googleapis.com/css?family=Bitter:400,700' rel='stylesheet' type='text/css'>
 
-    <!--scripts-->
-    <script src="js/vendor/modernizr.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
-    <script>
+  <!--style sheets-->
+  <link rel="stylesheet" href="../../foundation/css/foundation.css" />
+  <link rel="stylesheet" href="css/nav.css" />
+  <link rel="stylesheet" href="css/location.css" />
+
+  <!--scripts-->
+  <script src="js/vendor/modernizr.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js"></script>
+  <script>
     function initialize() {
       var mapCanvas = document.getElementById('map-canvas');
       var mapOptions = {
@@ -29,93 +30,99 @@
     google.maps.event.addDomListener(window, 'load', initialize);
   </script>
 
-    <!--[if lt IE 10]>
+  <!--[if lt IE 10]>
     <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-  </head>
+</head>
 
-  <body>
+<body>
 
-    <div id="navbar">
-      <nav>
-        <ol class="row">
-          <li><a class="buttin small-6 large-3 columns" href="index.html">Home</a></li>
-          <li><a class="buttin small-6 large-3 columns current" href="location.html">Location</a></li>
-          <li><a class="buttin small-6 large-3 columns" href="about.html">About Us</a></li>
-          <li><a class="buttin small-6 large-3 columns" href="photo.html">Photo Gallery</a></li>
-        </ol>
-      </nav>
+  <div id="navbar">
+    <nav>
+      <ol class="row">
+        <li><a class="buttin small-6 large-3 columns" href="index.html">Home</a></li>
+        <li><a class="buttin small-6 large-3 columns current" href="location.html">Location</a></li>
+        <li><a class="buttin small-6 large-3 columns" href="about.html">About Us</a></li>
+        <li><a class="buttin small-6 large-3 columns" href="photo.html">Photo Gallery</a></li>
+      </ol>
+    </nav>
+  </div>
+
+  <div class="row">
+    <div class="large-12 columns">
+      <h1>
+        <a href="index.html">
+          <img src="images/kobelogo.jpg">
+        </a>
+      </h1>
     </div>
+  </div>
 
-    <div class="row">
-      <div class="large-12 columns">
-        <h1><a href="index.html"><img src="images/kobelogo.jpg"></a></h1>
-      </div>
+  <div class="row">
+    <div class="large-12 columns">
+      <div id="map-canvas"></div>
     </div>
+  </div>
 
-    <div class="row">
-      <div class="large-12 columns">
-        <div id="map-canvas"></div>
-      </div>
+  <div class="row">
+    <div class="large-12 columns">
+      <h4>Our Pleasent Hill Location</h4>
+      <p>Kobe Japan Steakhouse, Seafood, Sushi Lounge and Sports Bar is conveniently located one mile west of Interstate 680 in Pleasant Hill, California 94523 at the intersection of Oak Park Boulevard at Patterson Boulevard. We are open for lunch and dinner
+        seven days a week and we have two private banquet rooms for your special occasions. Contact us today at (925) 705-7065/7066 and reserve a private room for your special event.</p>
     </div>
+    <hr/>
+  </div>
 
-    <div class="row">
-      <div class="large-12 columns">
-        <h4>Our Pleasent Hill Location</h4>
-        <p>Kobe Japan Steakhouse, Seafood, Sushi Lounge and Sports Bar is conveniently located one mile west of Interstate 680 in Pleasant Hill, California 94523 at the intersection of Oak Park Boulevard at Patterson Boulevard. We are open for lunch and dinner seven days a week and we have two private banquet rooms for your special occasions. Contact us today at (925) 705-7065/7066 and reserve a private room for your special event.</p>
-      </div>
-      <hr/>
-    </div>
+  <div class="row">
+    <div class="large-12 columns">
 
-    <div class="row">
-        <div class="large-12 columns">
+      <div class="panel">
+        <h4>Get in touch!</h4>
 
-          <div class="panel">
-            <h4>Get in touch!</h4>
-
-            <div class="row">
-              <div class="large-7 columns right">
-                <h4>Follow us for Special Offers!</h4>
-              </div>
-              <div class="large-5 columns">
-                <img src="images/icons/facebook.png"/>
-                <img src="images/icons/twitter.png"/>
-                <img src="images/icons/yelp.png"/>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-    <footer class="row">
-      <div class="large-12 columns">
         <div class="row">
-          <div class="large-6 columns">
-            <p>© Copyright no one at all. Go to town.</p>
+          <div class="large-7 columns right">
+            <h4>Follow us for Special Offers!</h4>
           </div>
-          <nav>
-            <div class="large-6 columns">
-              <ul class="inline-list right">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="location.html">Location</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="photo.html">Photo Gallery</a></li>
-              </ul>
-            </div>
-          </nav>
+          <div class="large-5 columns">
+            <img src="images/icons/facebook.png" />
+            <img src="images/icons/twitter.png" />
+            <img src="images/icons/yelp.png" />
+          </div>
         </div>
       </div>
-    </footer>
+
+    </div>
+  </div>
+
+  <footer class="row">
+    <div class="large-12 columns">
+      <div class="row">
+        <div class="large-6 columns">
+          <p>© Copyright no one at all. Go to town.</p>
+        </div>
+        <nav>
+          <div class="large-6 columns">
+            <ul class="inline-list right">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="location.html">Location</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="photo.html">Photo Gallery</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </footer>
 
 
 
 
 
-    <script src="../../foundation/js/vendor/jquery.js"></script>
-    <script src="../../foundation/js/foundation.min.js"></script>
-    <script>
-      $(document).foundation();
-    </script>
-  </body>
+  <script src="../../foundation/js/vendor/jquery.js"></script>
+  <script src="../../foundation/js/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+</body>
+
 </html>
